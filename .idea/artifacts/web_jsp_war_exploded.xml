@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web_jsp:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_jsp_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="web_jsp/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web_jsp" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JAX-WS-Apache Axis" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/axis.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/saaj.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/el-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/jaxrpc.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/jsp-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/log4j-1.2.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/servlet-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/wsdl4j-1.5.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/commons-discovery-0.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/commons-logging-1.0.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../ojdbc7.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
