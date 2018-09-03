@@ -35,7 +35,7 @@
         for (GuestDto g:list) {
     %>
     <tr>
-        <td>    
+        <td>
             <a href="javascript:funcModify('<%= g.getCode() %>')" >
                 <%= g.getCode() %>
             </a>
